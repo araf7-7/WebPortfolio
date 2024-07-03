@@ -41,7 +41,17 @@ const Portfolio = () => {
                         <div className="space-y-2 font-semibold h-24">
                             <h6 className="text-sm md:text-base lg:text-xl font-semibold">Parcely</h6>
                             <p className="text-xs font-semibold text-white md:text-sm">Easily book parcels for delivery with just a few clicks. Our intuitive interface allows users to input all necessary details quickly.</p>
-                            
+
+                        </div>
+                        <div className="flex gap-2">
+                            <img className="h-10 w-10" src="https://i.ibb.co/pnN27JL/pngegg.png" alt="" />
+                            <img className="h-10 w-10" src="https://i.ibb.co/0X9tcDt/pngegg-1.png" alt="" />
+                            <img className="h-10 w-10" src="https://i.ibb.co/xFjVt0B/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail-removebg-preview.png" alt="" />
+                            <img className="h-10 w-12" src="https://i.ibb.co/7VBhNn9/pngwing-com.png" alt="" />
+                            <img className="h-10 w-10" src="https://i.ibb.co/mDkCdbB/pngwing-com-1.png" alt="" />
+                            <img className="h-10 w-10" src="https://i.ibb.co/CJzw4gL/pngwing-com-2.png" alt="" />
+                            <img className="h-10 w-10" src="https://i.ibb.co/C8S23DW/t-vercel1868-removebg-preview.png" alt="" />
+
                         </div>
                         <div className="flex items-center justify-center gap-6 text-sm md:text-base">
                             <button onClick={handlePreviewClick1} className="flex items-center justify-center gap-2 rounded-lg bg-transparent border-yellow-200 border-2 px-6 py-2 font-semibold text-white duration-300 hover:border-none hover:text-black hover:scale-105 hover:bg-yellow-400">
@@ -64,7 +74,17 @@ const Portfolio = () => {
                         <div className="space-y-2 font-semibold h-24">
                             <h6 className="text-sm md:text-base lg:text-xl font-semibold">Study Hub</h6>
                             <p className="text-xs font-semibold text-white md:text-sm">
-                            Welcome to Study Hub, your all-in-one platform for managing assignments effortlessly. With Study Hub, users can seamlessly add assignments, submit their work, and receive grades promptly.</p>
+                                Welcome to Study Hub, your all-in-one platform for managing assignments effortlessly. With Study Hub, users can seamlessly add assignments, submit their work, and receive grades promptly.</p>
+                        </div>
+                        <div className="flex gap-2">
+                            <img className="h-10 w-10" src="https://i.ibb.co/pnN27JL/pngegg.png" alt="" />
+                            <img className="h-10 w-10" src="https://i.ibb.co/0X9tcDt/pngegg-1.png" alt="" />
+                            <img className="h-10 w-10" src="https://i.ibb.co/xFjVt0B/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail-removebg-preview.png" alt="" />
+                            <img className="h-10 w-12" src="https://i.ibb.co/7VBhNn9/pngwing-com.png" alt="" />
+                            <img className="h-10 w-10" src="https://i.ibb.co/mDkCdbB/pngwing-com-1.png" alt="" />
+                            <img className="h-10 w-10" src="https://i.ibb.co/CJzw4gL/pngwing-com-2.png" alt="" />
+                            <img className="h-10 w-10" src="https://i.ibb.co/C8S23DW/t-vercel1868-removebg-preview.png" alt="" />
+
                         </div>
                         <div className="flex items-center justify-center gap-6 text-sm md:text-base">
                             <button onClick={handlePreviewClick2} className="flex items-center justify-center gap-2 rounded-lg bg-transparent border-yellow-200 border-2 px-6 py-2 font-semibold text-white duration-300 hover:border-none hover:text-black hover:scale-105 hover:bg-yellow-400">
@@ -88,6 +108,16 @@ const Portfolio = () => {
                             <h6 className="text-sm md:text-base lg:text-xl font-semibold">TourEase</h6>
                             <p className="text-xs font-semibold text-white md:text-sm">A React project about the Tourist Spots around the world, there are 2 section and one can access it after sign up or login by google, github and email. Explore the best resorts you can find.</p>
                         </div>
+                        <div className="flex gap-2">
+                            <img className="h-10 w-10" src="https://i.ibb.co/pnN27JL/pngegg.png" alt="" />
+                            <img className="h-10 w-10" src="https://i.ibb.co/0X9tcDt/pngegg-1.png" alt="" />
+                            <img className="h-10 w-10" src="https://i.ibb.co/xFjVt0B/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail-removebg-preview.png" alt="" />
+                            <img className="h-10 w-12" src="https://i.ibb.co/7VBhNn9/pngwing-com.png" alt="" />
+                            <img className="h-10 w-10" src="https://i.ibb.co/mDkCdbB/pngwing-com-1.png" alt="" />
+                            <img className="h-10 w-10" src="https://i.ibb.co/CJzw4gL/pngwing-com-2.png" alt="" />
+                            <img className="h-10 w-10" src="https://i.ibb.co/C8S23DW/t-vercel1868-removebg-preview.png" alt="" />
+
+                        </div>
                         <div className="flex items-center justify-center gap-6 text-sm md:text-base">
                             <button onClick={handlePreviewClick3} className="flex items-center justify-center gap-2 rounded-lg bg-transparent border-yellow-200 border-2 px-6 py-2 font-semibold text-white duration-300 hover:border-none hover:text-black hover:scale-105 hover:bg-yellow-400">
                                 Preview <TbEyeShare />
@@ -109,7 +139,14 @@ const Portfolio = () => {
                         <div className="space-y-2 font-semibold h-24">
                             <h6 className="text-sm md:text-base lg:text-xl font-semibold">ResortScape</h6>
                             <p className="text-xs font-semibold text-white md:text-sm">A React project about the luxurious resorts around the world, there are 2 section and one can access it after sign up or login by google, github and email. Explore the best resorts you can find . And dont forget to check the gallery section.</p>
-                            
+
+                        </div>
+                        <div className="flex gap-2">
+                            <img className="h-10 w-10" src="https://i.ibb.co/pnN27JL/pngegg.png" alt="" />
+                            <img className="h-10 w-10" src="https://i.ibb.co/0X9tcDt/pngegg-1.png" alt="" />
+                            <img className="h-10 w-10" src="https://i.ibb.co/xFjVt0B/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail-removebg-preview.png" alt="" />
+                            <img className="h-10 w-12" src="https://i.ibb.co/7VBhNn9/pngwing-com.png" alt="" />
+                            <img className="h-10 w-10" src="https://i.ibb.co/mDkCdbB/pngwing-com-1.png" alt="" />
                         </div>
                         <div className="flex items-center justify-center gap-6 text-sm md:text-base">
                             <button onClick={handlePreviewClick4} className="flex items-center justify-center gap-2 rounded-lg bg-transparent border-yellow-200 border-2 px-6 py-2 font-semibold text-white duration-300 hover:border-none hover:text-black hover:scale-105 hover:bg-yellow-400">

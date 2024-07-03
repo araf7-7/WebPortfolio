@@ -11,13 +11,13 @@ const Banner = () => {
                 <TypeAnimation
                     sequence={[
                         // Same substring at the start will only be typed once, initially
-                        'I am A',
+                        'A',
                         1000,
-                        'I am A Developer',
+                        'A Developer',
                         2000,
-                        'I am A Explorer',
+                        'A Explorer',
                         2000,
-                        'I am A Dreamer',
+                        'A Dreamer',
                         2000,
                     ]}
                     speed={50}

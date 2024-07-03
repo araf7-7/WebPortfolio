@@ -1,5 +1,4 @@
 
-
 const Contact = () => {
     return (
         <div name='About' className="pt-10 min-h-screen px-10">
@@ -12,12 +11,12 @@ const Contact = () => {
                     </div>
 
                     <form className="space-y-6">
-                        <div className="space-y-2 text-sm text-zinc-700 dark:text-zinc-400">
+                        <div className="space-y-2 text-sm bg- text-zinc-700 dark:text-zinc-400">
                             <label className="block font-bold" htmlFor="name">
                                 Name
                             </label>
                             <input
-                                className="h-10 w-full rounded border px-3 text-sm leading-tight focus:outline-none dark:border-zinc-700"
+                                className="h-10 w-full bg-transparent rounded border px-3 text-sm leading-tight focus:outline-none dark:border-zinc-700"
                                 id="name"
                                 placeholder="Your Name"
                                 name="name"
@@ -52,7 +51,7 @@ const Contact = () => {
 
                 </div>
             </div>
-
+           
         </div>
     );
 };

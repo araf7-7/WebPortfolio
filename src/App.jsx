@@ -6,6 +6,8 @@ import Portfolio from "./Components/Portfolio";
 import Skills from "./Components/Skills/Skills";
 import Experience from "./Components/Experience/Experience";
 import Contact from "./Components/Contact/Contact";
+import Education from "./Components/Education/Education";
+import Footer from "./Components/Footer/Footer";
 
 
 
@@ -21,7 +23,9 @@ function App() {
         <Element id="Portfolio"><Portfolio></Portfolio></Element>
         <Element id="Skills"><Skills></Skills></Element>
         <Experience></Experience>
-        <Contact></Contact>
+        <Education></Education>
+        <Element id="Contact"><Contact /></Element>
+        <Footer></Footer>
       </div>
     </>
   )
