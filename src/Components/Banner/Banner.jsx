@@ -2,6 +2,9 @@ import { TypeAnimation } from "react-type-animation";
 import { CiLocationArrow1 } from "react-icons/ci";
 import { Link } from "react-scroll";
 const Banner = () => {
+    const handlePreviewClick1 = () => {
+        window.location.href = 'https://drive.google.com/file/d/1JPZPgcYTcplZflE_cf6Kp0etXAyiAnao/view?usp=drive_link'; // Replace with your desired URL
+    };
     return (
         <div className="">
             <div className="text-center mb-10">
@@ -26,7 +29,7 @@ const Banner = () => {
             <div className="text-center ">
                 <h1 className="text-4xl mb-10 ">Hi There I&apos;am <span className="font-bold text-yellow-300">Araf Ahmed</span>. <br /> A Junior <span className="font-bold text-yellow-300" >Front End</span> || <span className="font-bold text-yellow-300">MERN Stack</span> Developer</h1>
                 <div className="flex justify-center gap-10">
-                    <button className="btn bg-transparent border-yellow-400 mt-4 text-white hover:bg-yellow-400 px-10 hover:border-none hover:text-black">My Resume <CiLocationArrow1 className="text-lg" /></button>
+                    <button onClick={handlePreviewClick1} className="btn bg-transparent border-yellow-400 mt-4 text-white hover:bg-yellow-400 px-10 hover:border-none hover:text-black">My Resume <CiLocationArrow1 className="text-lg" /></button>
                     <Link to='Portfolio' smooth={true} duration={500}>
                         <button className="btn bg-transparent border-yellow-400 mt-4 text-white hover:bg-yellow-400 px-10 hover:border-none hover:text-black">My Work <CiLocationArrow1 className="text-lg" /></button>
                     </Link>

@@ -25,9 +25,12 @@ export const Navbar = () => {
         <nav className="flex items-center justify-center  px-4 py-5 text-yellow-300 mb-24 ">
 
             <ul className="hidden items-center justify-between gap-10 md:flex">
+               
+                <Link to='Banner' smooth={true} duration={500}>
                 <li className="group flex  cursor-pointer  flex-col">
                     Home<span className="mt-[2px] h-[3px] w-[0px] rounded-full  bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
                 </li>
+                </Link>
                 <Link to='About' smooth={true} duration={500}>
                     <li className="group flex  cursor-pointer flex-col">
 
@@ -39,10 +42,13 @@ export const Navbar = () => {
                         Portfolio<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
                     </li>
                 </Link>
-
+                <Link to='Skills' smooth={true} duration={500}>
                 <li className="group flex  cursor-pointer flex-col">
-                    Experience<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
+                    Skills<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
                 </li>
+                </Link>
+
+               
                 <li className="group flex  cursor-pointer flex-col">
                     Contact<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
                 </li>

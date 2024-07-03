@@ -28,7 +28,7 @@ const Portfolio = () => {
     };
     return (
         <div name='Portfolio' className="mt-0 min-h-screen px-10">
-            <h1 className="text-4xl inline border-b-4">Portfolio</h1>
+            <h1 className="text-4xl inline border-b-4 font-bold">Portfolio</h1>
             <p className="mt-4 text-3xl">See some of my recent Projects.</p>
             <div className="grid grid-cols-2 gap-10">
                 {/* Card 1 */}
