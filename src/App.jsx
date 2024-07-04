@@ -8,6 +8,7 @@ import Experience from "./Components/Experience/Experience";
 import Contact from "./Components/Contact/Contact";
 import Education from "./Components/Education/Education";
 import Footer from "./Components/Footer/Footer";
+import { Toaster } from "react-hot-toast";
 
 
 
@@ -17,6 +18,8 @@ function App() {
   return (
     <>
       <div className="font-abc bg-gradient-to-b text-white from-black to-yellow-500 min-h-screen">
+        <Toaster position="bottom-left"
+          reverseOrder={false}></Toaster>
         <Navbar></Navbar>
         <Element id="Banner"><Banner></Banner></Element>
         <Element id="About"><About></About></Element>

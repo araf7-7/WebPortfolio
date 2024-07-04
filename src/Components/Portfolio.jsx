@@ -27,24 +27,24 @@ const Portfolio = () => {
         window.location.href = 'https://github.com/araf7-7/ResortScape'; // Replace with your desired URL
     };
     return (
-        <div name='Portfolio' className="mt-0 min-h-screen px-10">
+        <div name='Portfolio' className="mt-14 min-h-screen px-20">
             <h1 className="text-4xl inline border-b-4 font-bold">Portfolio</h1>
             <p className="mt-4 text-3xl">See some of my recent Projects.</p>
-            <div className="grid grid-cols-2 gap-10">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
                 {/* Card 1 */}
                 <div>
                     <div className="w-full mt-10 max-w-auto space-y-3 rounded-xl bg-transparent border-2 border-white p-4 font-sans shadow-lg ">
-                        <div className="relative flex h-48 w-full justify-center lg:h-[260px]">
+                        <div className="relative flex  h-auto w-full justify-center lg:h-[260px]">
 
-                            <img width={260} height={260} className="h-full w-full rounded-lg bg-black/40" src="https://i.ibb.co/w4r0g0q/Screenshot-2024-07-03-140624.png" alt="card navigate ui" />
+                            <img width={260} height={260} className="h-auto w-[400px] lg:w-full lg:h-full rounded-lg bg-black/40" src="https://i.ibb.co/w4r0g0q/Screenshot-2024-07-03-140624.png" alt="card navigate ui" />
                         </div>
-                        <div className="space-y-2 font-semibold h-24">
+                        <div className="space-y-2 font-semibold md:h-32 h-24">
                             <h6 className="text-sm md:text-base lg:text-xl font-semibold">Parcely</h6>
                             <p className="text-xs font-semibold text-white md:text-sm">Easily book parcels for delivery with just a few clicks. Our intuitive interface allows users to input all necessary details quickly.</p>
 
                         </div>
-                        <div className="flex gap-2">
-                            <img className="h-10 w-10" src="https://i.ibb.co/pnN27JL/pngegg.png" alt="" />
+                        <div className="flex fle gap-2">
+                            <img className="h-10 w-10 " src="https://i.ibb.co/pnN27JL/pngegg.png" alt="" />
                             <img className="h-10 w-10" src="https://i.ibb.co/0X9tcDt/pngegg-1.png" alt="" />
                             <img className="h-10 w-10" src="https://i.ibb.co/xFjVt0B/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail-removebg-preview.png" alt="" />
                             <img className="h-10 w-12" src="https://i.ibb.co/7VBhNn9/pngwing-com.png" alt="" />
@@ -67,11 +67,11 @@ const Portfolio = () => {
                 {/* card 2 */}
                 <div>
                     <div className="w-full  mt-10 max-w-auto space-y-3 rounded-xl bg-transparent border-2 border-white p-4 font-sans shadow-lg ">
-                        <div className="relative flex h-48 w-full justify-center lg:h-[260px]">
+                        <div className="relative flex  h-48 w-full justify-center lg:h-[260px]">
 
-                            <img width={260} height={260} className="h-full w-full rounded-lg bg-black/40" src="https://i.ibb.co/wCjcPL2/Screenshot-2024-07-03-141203.png" alt="card navigate ui" />
+                            <img width={260} height={260} className="h-auto w-auto lg:w-full lg:h-full rounded-lg bg-black/40" src="https://i.ibb.co/wCjcPL2/Screenshot-2024-07-03-141203.png" alt="card navigate ui" />
                         </div>
-                        <div className="space-y-2 font-semibold h-24">
+                        <div className="space-y-2 font-semibold md:h-32 h-24">
                             <h6 className="text-sm md:text-base lg:text-xl font-semibold">Study Hub</h6>
                             <p className="text-xs font-semibold text-white md:text-sm">
                                 Welcome to Study Hub, your all-in-one platform for managing assignments effortlessly. With Study Hub, users can seamlessly add assignments, submit their work, and receive grades promptly.</p>
@@ -100,11 +100,11 @@ const Portfolio = () => {
                 {/* card 3 */}
                 <div>
                     <div className="w-full mt-10 max-w-auto space-y-3 rounded-xl bg-transparent border-2 border-white p-4 font-sans shadow-lg ">
-                        <div className="relative flex h-48 w-full justify-center lg:h-[260px]">
+                        <div className="relative flex h-48  w-full justify-center lg:h-[260px]">
 
-                            <img width={260} height={260} className="h-full w-full rounded-lg bg-black/40" src="https://i.ibb.co/fkxX5YL/Screenshot-2024-07-03-141652.png" alt="card navigate ui" />
+                            <img width={260} height={260} className="h-auto w-auto lg:w-full lg:h-full rounded-lg bg-black/40" src="https://i.ibb.co/fkxX5YL/Screenshot-2024-07-03-141652.png" alt="card navigate ui" />
                         </div>
-                        <div className="space-y-2 font-semibold h-24">
+                        <div className="space-y-2 font-semibold md:h-32 h-24">
                             <h6 className="text-sm md:text-base lg:text-xl font-semibold">TourEase</h6>
                             <p className="text-xs font-semibold text-white md:text-sm">A React project about the Tourist Spots around the world, there are 2 section and one can access it after sign up or login by google, github and email. Explore the best resorts you can find.</p>
                         </div>
@@ -134,9 +134,9 @@ const Portfolio = () => {
                     <div className="w-full mt-10 max-w-auto space-y-3 rounded-xl bg-transparent border-2 border-white p-4 font-sans shadow-lg ">
                         <div className="relative flex h-48 w-full justify-center lg:h-[260px]">
 
-                            <img width={260} height={260} className="h-full w-full rounded-lg bg-black/40" src="https://i.ibb.co/ZWWRQ0G/Screenshot-2024-07-03-142022.png" alt="card navigate ui" />
+                            <img width={260} height={260} className="h-auto w-auto lg:w-full lg:h-full rounded-lg bg-black/40" src="https://i.ibb.co/ZWWRQ0G/Screenshot-2024-07-03-142022.png" alt="card navigate ui" />
                         </div>
-                        <div className="space-y-2 font-semibold h-24">
+                        <div className="space-y-2 font-semibold md:h-32 h-24">
                             <h6 className="text-sm md:text-base lg:text-xl font-semibold">ResortScape</h6>
                             <p className="text-xs font-semibold text-white md:text-sm">A React project about the luxurious resorts around the world, there are 2 section and one can access it after sign up or login by google, github and email. Explore the best resorts you can find . And dont forget to check the gallery section.</p>
 

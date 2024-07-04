@@ -22,7 +22,7 @@ export const Navbar = () => {
     }, []);
 
     return (
-        <nav className="flex items-center justify-center  px-4 py-5 text-yellow-300 mb-24 ">
+        <nav className="flex lg:items-center lg:justify-center md:justify-center md:items-center justify-end items-end  px-4 py-5 text-yellow-300 mb-24 ">
 
             <ul className="hidden items-center justify-between gap-10 md:flex">
                
