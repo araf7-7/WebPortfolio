@@ -1,57 +1,21 @@
 
 const Contact = () => {
     return (
-        <div name='About' className="pt-10 min-h-screen px-10">
-            <h1 className="text-4xl inline font-bold border-b-4">About</h1>
-            <div className="mx-auto w-full max-w-md mt-20">
-                <div className="rounded-lg bg-transparent border-2 border-yellow-300 px-10 pb-10 pt-8 shadow-md ">
-                    <div className="mb-6">
-                        <h2 className="text-center text-2xl font-bold">Contact Us</h2>
-                        <p className="text-center text-zinc-500 dark:text-zinc-400">We&apos;d love to hear from you!</p>
-                    </div>
-
-                    <form className="space-y-6">
-                        <div className="space-y-2 text-sm bg- text-zinc-700 dark:text-zinc-400">
-                            <label className="block font-bold" htmlFor="name">
-                                Name
-                            </label>
-                            <input
-                                className="h-10 w-full bg-transparent rounded border px-3 text-sm leading-tight focus:outline-none dark:border-zinc-700"
-                                id="name"
-                                placeholder="Your Name"
-                                name="name"
-                                type="text"
-                            />
-                        </div>
-                        <div className="space-y-2 text-sm text-zinc-700 dark:text-zinc-400">
-                            <label className="block text-sm font-bold text-zinc-700 dark:text-zinc-400" htmlFor="_email">
-                                Email
-                            </label>
-                            <input
-                                className="h-10 w-full rounded border px-3 py-2 text-sm leading-tight focus:outline-none dark:border-zinc-700"
-                                id="_email"
-                                placeholder="example@gmail.com"
-                                name="email"
-                                type="email"
-                            />
-                        </div>
-                        <div className="space-y-2 text-sm text-zinc-700 dark:text-zinc-400">
-                            <label className="block font-bold" htmlFor="_message">
-                                Message
-                            </label>
-                            <textarea
-                                className="min-h-[80px] w-full rounded border px-3 py-2 leading-tight focus:outline-none dark:border-zinc-700"
-                                id="_message"
-                                placeholder="what's in your mind"
-                                name="message"
-                            />
-                        </div>
-                        <button className="rounded-md bg-sky-500 px-4 py-2 text-white transition-colors hover:bg-sky-600 dark:bg-sky-700">Submit</button>
-                    </form>
-
-                </div>
+        <div name='Contact' className="pt-10 min-h-screen px-10">
+            <h1 className="text-4xl inline font-bold border-b-4">Contact</h1>
+            <p className="text-2xl mt-5">I&apos;m always excited to connect with new people and explore new opportunities. Whether you have a project in mind, need some advice, or just want to say hi, feel free to reach out!</p>
+            <h1 className="text-4xl  text-center text-black mt-10">Reach Out With My Social</h1>
+            <div className="flex justify-center items-center mt-10 gap-5">
+                <a href="https://github.com/araf7-7"><button className="btn-primary bg-transparent border-yellow-200  font-semibold rounded-full text-white hover:border-none hover:text-black duration-300 hover:scale-105 hover:bg-yellow-400"><img src="https://i.ibb.co/6R46WvD/github-logo.png" className="w-15 h-12" alt="github" /></button></a>
+                <a href="https://www.linkedin.com/in/araf-ahmed7/"><button className="btn-primary bg-transparent border-yellow-200  font-semibold text-white hover:border-none hover:text-black duration-300 hover:scale-105 hover:bg-yellow-400"><img src="https://i.ibb.co/mBVrf7c/Linked-In-logo-initials.png" className="w-15 h-10" alt="linkedin" /></button></a>
+                <a href="https://www.facebook.com/ron.weasly.07"><button className="btn-primary bg-transparent border-yellow-200  font-semibold text-white hover:border-none hover:text-black duration-300 hover:scale-105 "><img src="https://i.ibb.co/bRG8twX/Facebook-f-logo-2019-svg.png" className="w-15 h-10" alt="Facebook" /></button></a>
+                <a href="https://www.instagram.com/__araf_7__/"><button className="btn-primary bg-transparent border-yellow-200  font-semibold text-white hover:border-none hover:text-black duration-300 hover:scale-105 "><img src="https://i.ibb.co/Mn3TwnX/Instagram-logo-2016-svg.png" className="w-15 h-10" alt="Instagram" /></button></a>
             </div>
-           
+            <h1 className="divide-gray-950 divider"></h1>
+            <h1 className="text-4xl  text-center text-black mt-10">Message Me</h1>
+            <div>
+
+            </div>
         </div>
     );
 };
